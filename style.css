@@ -15,20 +15,25 @@
     flex-direction: row;
     gap: 16px;
     font-size: 24px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
 }
 
 .welcome {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 36px;
-    position: absolute;
-    right: 50%;
-    top: 50%;
     color: rgb(255, 255, 255);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+
 }
 
 body {
-    
+
     background-image: url("gradient-simple-background-xs-1920x1080.jpg");
 }
